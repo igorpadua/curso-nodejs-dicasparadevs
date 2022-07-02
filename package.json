@@ -1,0 +1,20 @@
+{
+  "name": "curso-de-node.js-para-completos-iniciantes",
+  "version": "1.0.0",
+  "description": "Curso de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Igor Moreira Pádua",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
